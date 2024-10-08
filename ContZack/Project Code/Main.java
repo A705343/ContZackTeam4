@@ -111,7 +111,7 @@ public class Main extends Application {
          Level8 level8 = new Level8(primaryStage, 1, 6);
          level8.setOnLevelComplete(this::startLevel9);
          level8.setOnLevelComplete2(this::startLevel7);
-        // level8.setOnLevelComplet3(this::startLevel);
+        level8.setOnLevelComplete3(this::startLevel9);
          level8.setOnLevelComplete4(this::startLevel7);  // Pass default starting positions
          level8.start();                                  // Start Level 6    
         }
